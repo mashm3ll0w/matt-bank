@@ -37,7 +37,7 @@
 				<div class="row">
 					<div class="col-md-6 holder">
 						<h2>Create an Account</h2>
-						<form class="form">
+						<form id="new-client">
 							<div class="">
 								<input class="form-control" type="text" name="name" id="f-name" placeholder="First Name" autocomplete="off" autofocus />
 								<input class="form-control" type="text" name="name" id="l-name" placeholder="Last Name" autocomplete="off" autofocus />
@@ -47,30 +47,31 @@
 						</form>
 					</div>
 					<div class="col-md-6 holder">
-            <h2>Transactions</h2>
-            <p class="descriptor">Debit or Credit your account</p>
-						<input class="form-control" type="number" name="debit" id="credit" placeholder="Deposit" autocomplete="off" autofocus />
-						<input class="form-control" type="number" name="credit" id="debit" placeholder="Withdraw" autocomplete="off" autofocus />
-						<button class="btn btn-lg btn-info bal-acc" type="submit">Debit/Credit</button>
+						<h2>Transactions</h2>
+						<p class="descriptor">Debit or Credit your account</p>
+						<form id="acc-transactions">
+							<input class="form-control" type="number" name="debit" id="credit" placeholder="Deposit" autocomplete="off" autofocus />
+							<input class="form-control" type="number" name="credit" id="debit" placeholder="Withdraw" autocomplete="off" autofocus />
+							<button class="btn btn-lg btn-info bal-acc" type="submit">Debit/Credit</button>
+						</form>
 					</div>
 				</div>
 			</div>
-    </section>
-    
-    <hr>
+		</section>
 
-    <section class="info">
-      <div class="acc-info">
-        <h2>Account Details</h2>
-        <p class="acc"><strong>Account Name: </strong><span class="acc-name"></span></p>
-        <p class="acc"><strong>Account Balance: </strong><span class="acc-bal"></span></p>
-      </div>
-    </section>
+		<hr />
 
+		<section class="info">
+			<div class="acc-info">
+				<h2>Account Details</h2>
+				<p class="acc"><strong>Account Name: </strong><span class="acc-name"></span></p>
+				<p class="acc"><strong>Account Balance: </strong><span class="acc-bal"></span></p>
+			</div>
+		</section>
 
-    <footer>
-      <p>Karl . <a href="https://www.github.com/mashm3ll0w">GitHub</a> . 2019</p>
-    </footer>
+		<footer>
+			<p>Karl . <a href="https://www.github.com/mashm3ll0w">GitHub</a> . 2019</p>
+		</footer>
 		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	</body>
