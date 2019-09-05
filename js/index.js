@@ -26,7 +26,7 @@ BankAccount.prototype.debit = function() {
 // Account Creation
 
 $(document).ready(function() {
-	$("button.create-acc").click(function(event) {
+	$("form#new-client").submit(function(event) {
 		event.preventDefault();
 
 		var fname = $("input#f-name").val();
@@ -38,7 +38,7 @@ $(document).ready(function() {
 		$("span.acc-name").text(newCustomer.fullNames());
     $("span.acc-bal").text(deposit);
     
-    $("button.bal-acc").click(function(event) {
+    $("form#acc-transactions").submit(function(event) {
       event.preventDefault();
       
       var balanceUp = parseInt($("input#credit").val());
