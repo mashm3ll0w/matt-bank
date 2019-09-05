@@ -1,0 +1,27 @@
+body {
+  font-family: 'Manjari', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+/* Welcome Section */
+
+.welcome-section {
+  margin: 50px auto;
+  background-color: teal;
+  height: 25vh;
+  padding: 50px 0;
+}
+
+.welcome-section > h1 {
+  font-size: 5rem;
+}
+
+.welcome-section > p {
+  font-size: 1.25rem;
+  color: #fff;
+}
